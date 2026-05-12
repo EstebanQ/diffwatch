@@ -60,7 +60,7 @@ Not every use case has to ship in v1. The architecture has to support them.
 - **Finishability over ambition.** Every scope decision favors getting a working version end-to-end over getting any single piece perfect. A complete v1 with rough edges beats a polished v0.5.
 - **Real public data.** No synthetic data, no toy datasets. The project's value comes from operating on real GitHub activity.
 - **Public and visible from day one.** The repository is public from the first commit. The README evolves with the project. Boring early commits are part of the story.
-- **Write as you build.** A learning log (`NOTES.md`) and a series of blog posts at major milestones. Writing forces understanding and is a major part of the portfolio value.
+- **Write as you build.** A series of blog posts at major milestones. Writing forces understanding and is a major part of the portfolio value.
 - **Avoid premature scope expansion.** New ideas go into `IDEAS.md`, not into v1.
 - **Resist over-engineering early.** Choose simple, local-first tools (Redpanda over Kafka, Qdrant or LanceDB over hosted vector DBs, OpenAI or sentence-transformers for embeddings). Optimize for getting unstuck, not for production-grade architecture, until v1 is working.
 
@@ -80,7 +80,6 @@ These are interesting and probably useful eventually. They are *not* part of the
 
 - A public GitHub repo containing the working system.
 - A README that explains what it does, why it was built, the architecture, how to run it locally, and what was learned.
-- A `NOTES.md` with the running learning log.
 - At least one substantive blog post explaining a non-trivial design decision encountered during the build.
 - A demo I can give in 5 minutes that shows live PRs flowing in and being immediately searchable.
 - An honest section in the README about known limitations and what would change in v2.
